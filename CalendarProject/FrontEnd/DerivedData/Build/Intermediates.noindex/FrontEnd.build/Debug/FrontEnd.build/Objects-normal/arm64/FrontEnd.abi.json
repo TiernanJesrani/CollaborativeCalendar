@@ -1,0 +1,1255 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "FrontEnd",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Testing",
+      "printedName": "Testing",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "test",
+          "printedName": "test",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8FrontEnd7TestingV4testSSvp",
+          "mangledName": "$s8FrontEnd7TestingV4testSSvp",
+          "moduleName": "FrontEnd",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8FrontEnd7TestingV4testSSvg",
+              "mangledName": "$s8FrontEnd7TestingV4testSSvg",
+              "moduleName": "FrontEnd",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "name",
+          "printedName": "name",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8FrontEnd7TestingV4nameSSvp",
+          "mangledName": "$s8FrontEnd7TestingV4nameSSvp",
+          "moduleName": "FrontEnd",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8FrontEnd7TestingV4nameSSvg",
+              "mangledName": "$s8FrontEnd7TestingV4nameSSvg",
+              "moduleName": "FrontEnd",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(test:name:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Testing",
+              "printedName": "FrontEnd.Testing",
+              "usr": "s:8FrontEnd7TestingV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:8FrontEnd7TestingV4test4nameACSS_SStcfc",
+          "mangledName": "$s8FrontEnd7TestingV4test4nameACSS_SStcfc",
+          "moduleName": "FrontEnd",
+          "implicit": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(from:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Testing",
+              "printedName": "FrontEnd.Testing",
+              "usr": "s:8FrontEnd7TestingV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Decoder",
+              "printedName": "Swift.Decoder",
+              "usr": "s:s7DecoderP"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:8FrontEnd7TestingV4fromACs7Decoder_p_tKcfc",
+          "mangledName": "$s8FrontEnd7TestingV4fromACs7Decoder_p_tKcfc",
+          "moduleName": "FrontEnd",
+          "implicit": true,
+          "throwing": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Var",
+          "name": "hashValue",
+          "printedName": "hashValue",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8FrontEnd7TestingV9hashValueSivp",
+          "mangledName": "$s8FrontEnd7TestingV9hashValueSivp",
+          "moduleName": "FrontEnd",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8FrontEnd7TestingV9hashValueSivg",
+              "mangledName": "$s8FrontEnd7TestingV9hashValueSivg",
+              "moduleName": "FrontEnd",
+              "implicit": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "hash",
+          "printedName": "hash(into:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Hasher",
+              "printedName": "Swift.Hasher",
+              "paramValueOwnership": "InOut",
+              "usr": "s:s6HasherV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:8FrontEnd7TestingV4hash4intoys6HasherVz_tF",
+          "mangledName": "$s8FrontEnd7TestingV4hash4intoys6HasherVz_tF",
+          "moduleName": "FrontEnd",
+          "implicit": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "encode",
+          "printedName": "encode(to:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Encoder",
+              "printedName": "Swift.Encoder",
+              "usr": "s:s7EncoderP"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:8FrontEnd7TestingV6encode2toys7Encoder_p_tKF",
+          "mangledName": "$s8FrontEnd7TestingV6encode2toys7Encoder_p_tKF",
+          "moduleName": "FrontEnd",
+          "implicit": true,
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "__derived_struct_equals",
+          "printedName": "__derived_struct_equals(_:_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Testing",
+              "printedName": "FrontEnd.Testing",
+              "usr": "s:8FrontEnd7TestingV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Testing",
+              "printedName": "FrontEnd.Testing",
+              "usr": "s:8FrontEnd7TestingV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:8FrontEnd7TestingV23__derived_struct_equalsySbAC_ACtFZ",
+          "mangledName": "$s8FrontEnd7TestingV23__derived_struct_equalsySbAC_ACtFZ",
+          "moduleName": "FrontEnd",
+          "static": true,
+          "implicit": true,
+          "declAttributes": [
+            "Implements"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:8FrontEnd7TestingV",
+      "mangledName": "$s8FrontEnd7TestingV",
+      "moduleName": "FrontEnd",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Decodable",
+          "printedName": "Decodable",
+          "usr": "s:Se",
+          "mangledName": "$sSe"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Encodable",
+          "printedName": "Encodable",
+          "usr": "s:SE",
+          "mangledName": "$sSE"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ViewModel",
+      "printedName": "ViewModel",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "jsonTest",
+          "printedName": "jsonTest",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[FrontEnd.Testing]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Testing",
+                  "printedName": "FrontEnd.Testing",
+                  "usr": "s:8FrontEnd7TestingV"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8FrontEnd9ViewModelC8jsonTestSayAA7TestingVGvp",
+          "mangledName": "$s8FrontEnd9ViewModelC8jsonTestSayAA7TestingVGvp",
+          "moduleName": "FrontEnd",
+          "isOpen": true,
+          "declAttributes": [
+            "ProjectedValueProperty",
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[FrontEnd.Testing]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Testing",
+                      "printedName": "FrontEnd.Testing",
+                      "usr": "s:8FrontEnd7TestingV"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8FrontEnd9ViewModelC8jsonTestSayAA7TestingVGvg",
+              "mangledName": "$s8FrontEnd9ViewModelC8jsonTestSayAA7TestingVGvg",
+              "moduleName": "FrontEnd",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[FrontEnd.Testing]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Testing",
+                      "printedName": "FrontEnd.Testing",
+                      "usr": "s:8FrontEnd7TestingV"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8FrontEnd9ViewModelC8jsonTestSayAA7TestingVGvs",
+              "mangledName": "$s8FrontEnd9ViewModelC8jsonTestSayAA7TestingVGvs",
+              "moduleName": "FrontEnd",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8FrontEnd9ViewModelC8jsonTestSayAA7TestingVGvM",
+              "mangledName": "$s8FrontEnd9ViewModelC8jsonTestSayAA7TestingVGvM",
+              "moduleName": "FrontEnd",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$jsonTest",
+          "printedName": "$jsonTest",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Publisher",
+              "printedName": "Combine.Published<Swift.Array<FrontEnd.Testing>>.Publisher",
+              "usr": "s:7Combine9PublishedV9PublisherV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8FrontEnd9ViewModelC9$jsonTest7Combine9PublishedV9PublisherVySayAA7TestingVG_Gvp",
+          "mangledName": "$s8FrontEnd9ViewModelC9$jsonTest7Combine9PublishedV9PublisherVySayAA7TestingVG_Gvp",
+          "moduleName": "FrontEnd",
+          "implicit": true,
+          "isOpen": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Publisher",
+                  "printedName": "Combine.Published<Swift.Array<FrontEnd.Testing>>.Publisher",
+                  "usr": "s:7Combine9PublishedV9PublisherV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8FrontEnd9ViewModelC9$jsonTest7Combine9PublishedV9PublisherVySayAA7TestingVG_Gvg",
+              "mangledName": "$s8FrontEnd9ViewModelC9$jsonTest7Combine9PublishedV9PublisherVySayAA7TestingVG_Gvg",
+              "moduleName": "FrontEnd",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Publisher",
+                  "printedName": "Combine.Published<Swift.Array<FrontEnd.Testing>>.Publisher",
+                  "usr": "s:7Combine9PublishedV9PublisherV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8FrontEnd9ViewModelC9$jsonTest7Combine9PublishedV9PublisherVySayAA7TestingVG_Gvs",
+              "mangledName": "$s8FrontEnd9ViewModelC9$jsonTest7Combine9PublishedV9PublisherVySayAA7TestingVG_Gvs",
+              "moduleName": "FrontEnd",
+              "implicit": true,
+              "isOpen": true,
+              "intro_Macosx": "11.0",
+              "intro_iOS": "14.0",
+              "intro_tvOS": "14.0",
+              "intro_watchOS": "7.0",
+              "declAttributes": [
+                "Available",
+                "Available",
+                "Available",
+                "Available"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8FrontEnd9ViewModelC9$jsonTest7Combine9PublishedV9PublisherVySayAA7TestingVG_GvM",
+              "mangledName": "$s8FrontEnd9ViewModelC9$jsonTest7Combine9PublishedV9PublisherVySayAA7TestingVG_GvM",
+              "moduleName": "FrontEnd",
+              "implicit": true,
+              "isOpen": true,
+              "intro_Macosx": "11.0",
+              "intro_iOS": "14.0",
+              "intro_tvOS": "14.0",
+              "intro_watchOS": "7.0",
+              "declAttributes": [
+                "Available",
+                "Available",
+                "Available",
+                "Available"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_jsonTest",
+          "printedName": "_jsonTest",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Published",
+              "printedName": "Combine.Published<[FrontEnd.Testing]>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[FrontEnd.Testing]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Testing",
+                      "printedName": "FrontEnd.Testing",
+                      "usr": "s:8FrontEnd7TestingV"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "usr": "s:7Combine9PublishedV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8FrontEnd9ViewModelC9_jsonTest33_EC990F8DE887877F4685A34463EC2FF2LL7Combine9PublishedVySayAA7TestingVGGvp",
+          "mangledName": "$s8FrontEnd9ViewModelC9_jsonTest33_EC990F8DE887877F4685A34463EC2FF2LL7Combine9PublishedVySayAA7TestingVGGvp",
+          "moduleName": "FrontEnd",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Function",
+          "name": "fetch",
+          "printedName": "fetch()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:8FrontEnd9ViewModelC5fetchyyF",
+          "mangledName": "$s8FrontEnd9ViewModelC5fetchyyF",
+          "moduleName": "FrontEnd",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ViewModel",
+              "printedName": "FrontEnd.ViewModel",
+              "usr": "s:8FrontEnd9ViewModelC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:8FrontEnd9ViewModelCACycfc",
+          "mangledName": "$s8FrontEnd9ViewModelCACycfc",
+          "moduleName": "FrontEnd",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:8FrontEnd9ViewModelC",
+      "mangledName": "$s8FrontEnd9ViewModelC",
+      "moduleName": "FrontEnd",
+      "isOpen": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "ObservableObject",
+          "printedName": "ObservableObject",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "ObjectWillChangePublisher",
+              "printedName": "ObjectWillChangePublisher",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ObservableObjectPublisher",
+                  "printedName": "Combine.ObservableObjectPublisher",
+                  "usr": "s:7Combine25ObservableObjectPublisherC"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7Combine16ObservableObjectP",
+          "mangledName": "$s7Combine16ObservableObjectP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ContentView",
+      "printedName": "ContentView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "viewModel",
+          "printedName": "viewModel",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ViewModel",
+              "printedName": "FrontEnd.ViewModel",
+              "usr": "s:8FrontEnd9ViewModelC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8FrontEnd11ContentViewV9viewModelAA0dF0Cvp",
+          "mangledName": "$s8FrontEnd11ContentViewV9viewModelAA0dF0Cvp",
+          "moduleName": "FrontEnd",
+          "declAttributes": [
+            "Custom",
+            "ProjectedValueProperty",
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ViewModel",
+                  "printedName": "FrontEnd.ViewModel",
+                  "usr": "s:8FrontEnd9ViewModelC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8FrontEnd11ContentViewV9viewModelAA0dF0Cvg",
+              "mangledName": "$s8FrontEnd11ContentViewV9viewModelAA0dF0Cvg",
+              "moduleName": "FrontEnd",
+              "implicit": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$viewModel",
+          "printedName": "$viewModel",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Wrapper",
+              "printedName": "SwiftUI.ObservedObject<FrontEnd.ViewModel>.Wrapper",
+              "usr": "s:7SwiftUI14ObservedObjectV7WrapperV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8FrontEnd11ContentViewV10$viewModel7SwiftUI14ObservedObjectV7WrapperVyAA0dF0C_Gvp",
+          "mangledName": "$s8FrontEnd11ContentViewV10$viewModel7SwiftUI14ObservedObjectV7WrapperVyAA0dF0C_Gvp",
+          "moduleName": "FrontEnd",
+          "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Wrapper",
+                  "printedName": "SwiftUI.ObservedObject<FrontEnd.ViewModel>.Wrapper",
+                  "usr": "s:7SwiftUI14ObservedObjectV7WrapperV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8FrontEnd11ContentViewV10$viewModel7SwiftUI14ObservedObjectV7WrapperVyAA0dF0C_Gvg",
+              "mangledName": "$s8FrontEnd11ContentViewV10$viewModel7SwiftUI14ObservedObjectV7WrapperVyAA0dF0C_Gvg",
+              "moduleName": "FrontEnd",
+              "implicit": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_viewModel",
+          "printedName": "_viewModel",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "StateObject",
+              "printedName": "SwiftUI.StateObject<FrontEnd.ViewModel>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ViewModel",
+                  "printedName": "FrontEnd.ViewModel",
+                  "usr": "s:8FrontEnd9ViewModelC"
+                }
+              ],
+              "usr": "s:7SwiftUI11StateObjectV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8FrontEnd11ContentViewV10_viewModel33_EC990F8DE887877F4685A34463EC2FF2LL7SwiftUI11StateObjectVyAA0dF0CGvp",
+          "mangledName": "$s8FrontEnd11ContentViewV10_viewModel33_EC990F8DE887877F4685A34463EC2FF2LL7SwiftUI11StateObjectVyAA0dF0CGvp",
+          "moduleName": "FrontEnd",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8FrontEnd11ContentViewV4bodyQrvp",
+          "mangledName": "$s8FrontEnd11ContentViewV4bodyQrvp",
+          "moduleName": "FrontEnd",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8FrontEnd11ContentViewV4bodyQrvg",
+              "mangledName": "$s8FrontEnd11ContentViewV4bodyQrvg",
+              "moduleName": "FrontEnd",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(viewModel:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ContentView",
+              "printedName": "FrontEnd.ContentView",
+              "usr": "s:8FrontEnd11ContentViewV"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "() -> FrontEnd.ViewModel",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ViewModel",
+                  "printedName": "FrontEnd.ViewModel",
+                  "usr": "s:8FrontEnd9ViewModelC"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "hasDefaultArg": true
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:8FrontEnd11ContentViewV9viewModelAcA0dF0CyXA_tcfc",
+          "mangledName": "$s8FrontEnd11ContentViewV9viewModelAcA0dF0CyXA_tcfc",
+          "moduleName": "FrontEnd",
+          "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ContentView",
+              "printedName": "FrontEnd.ContentView",
+              "usr": "s:8FrontEnd11ContentViewV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:8FrontEnd11ContentViewVACycfc",
+          "mangledName": "$s8FrontEnd11ContentViewVACycfc",
+          "moduleName": "FrontEnd",
+          "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:8FrontEnd11ContentViewV",
+      "mangledName": "$s8FrontEnd11ContentViewV",
+      "moduleName": "FrontEnd",
+      "declAttributes": [
+        "Custom"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ContentView_Previews",
+      "printedName": "ContentView_Previews",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "previews",
+          "printedName": "previews",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8FrontEnd20ContentView_PreviewsV8previewsQrvpZ",
+          "mangledName": "$s8FrontEnd20ContentView_PreviewsV8previewsQrvpZ",
+          "moduleName": "FrontEnd",
+          "static": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8FrontEnd20ContentView_PreviewsV8previewsQrvgZ",
+              "mangledName": "$s8FrontEnd20ContentView_PreviewsV8previewsQrvgZ",
+              "moduleName": "FrontEnd",
+              "static": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ContentView_Previews",
+              "printedName": "FrontEnd.ContentView_Previews",
+              "usr": "s:8FrontEnd20ContentView_PreviewsV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:8FrontEnd20ContentView_PreviewsVACycfc",
+          "mangledName": "$s8FrontEnd20ContentView_PreviewsVACycfc",
+          "moduleName": "FrontEnd",
+          "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:8FrontEnd20ContentView_PreviewsV",
+      "mangledName": "$s8FrontEnd20ContentView_PreviewsV",
+      "moduleName": "FrontEnd",
+      "declAttributes": [
+        "Custom"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "PreviewProvider",
+          "printedName": "PreviewProvider",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Previews",
+              "printedName": "Previews",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI15PreviewProviderP",
+          "mangledName": "$s7SwiftUI15PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_PreviewProvider",
+          "printedName": "_PreviewProvider",
+          "usr": "s:7SwiftUI16_PreviewProviderP",
+          "mangledName": "$s7SwiftUI16_PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "FrontEnd",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "FrontEndApp",
+      "printedName": "FrontEndApp",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.Scene",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Scene",
+                  "printedName": "SwiftUI.Scene",
+                  "usr": "s:7SwiftUI5SceneP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8FrontEnd0aB3AppV4bodyQrvp",
+          "mangledName": "$s8FrontEnd0aB3AppV4bodyQrvp",
+          "moduleName": "FrontEnd",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.Scene",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Scene",
+                      "printedName": "SwiftUI.Scene",
+                      "usr": "s:7SwiftUI5SceneP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8FrontEnd0aB3AppV4bodyQrvg",
+              "mangledName": "$s8FrontEnd0aB3AppV4bodyQrvg",
+              "moduleName": "FrontEnd",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FrontEndApp",
+              "printedName": "FrontEnd.FrontEndApp",
+              "usr": "s:8FrontEnd0aB3AppV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:8FrontEnd0aB3AppVACycfc",
+          "mangledName": "$s8FrontEnd0aB3AppVACycfc",
+          "moduleName": "FrontEnd",
+          "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "$main",
+          "printedName": "$main()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:8FrontEnd0aB3AppV5$mainyyFZ",
+          "mangledName": "$s8FrontEnd0aB3AppV5$mainyyFZ",
+          "moduleName": "FrontEnd",
+          "static": true,
+          "implicit": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:8FrontEnd0aB3AppV",
+      "mangledName": "$s8FrontEnd0aB3AppV",
+      "moduleName": "FrontEnd",
+      "declAttributes": [
+        "MainType"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "App",
+          "printedName": "App",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.Scene",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Scene",
+                      "printedName": "SwiftUI.Scene",
+                      "usr": "s:7SwiftUI5SceneP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI3AppP",
+          "mangledName": "$s7SwiftUI3AppP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

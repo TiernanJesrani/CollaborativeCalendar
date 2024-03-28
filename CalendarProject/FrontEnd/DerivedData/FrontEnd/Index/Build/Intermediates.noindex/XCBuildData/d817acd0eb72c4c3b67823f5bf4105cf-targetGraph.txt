@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+FrontEnd in FrontEnd, no dependencies
+FrontEndTests in FrontEnd, depends on:
+FrontEnd in FrontEnd (explicit)
+FrontEndUITests in FrontEnd, depends on:
+FrontEnd in FrontEnd (explicit)

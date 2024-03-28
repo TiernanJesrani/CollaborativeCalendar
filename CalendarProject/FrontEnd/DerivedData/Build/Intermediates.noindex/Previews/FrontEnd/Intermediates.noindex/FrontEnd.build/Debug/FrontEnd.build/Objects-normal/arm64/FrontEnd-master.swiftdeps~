@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "1f9836559ceb6bc0a3e4cce06e042457fedbe7baf637eecaa37eeb0032a1779c"
+build_start_time: [1703707034, 715978145]
+build_end_time: [1703707042, 351372957]
+inputs:
+  "/Users/tiernanjesrani/Desktop/CalendarProject/FrontEnd/FrontEnd/ContentView.swift": [1703705330, 243037223]
+  "/Users/tiernanjesrani/Desktop/CalendarProject/FrontEnd/FrontEnd/FrontEndApp.swift": [1703705330, 240479946]

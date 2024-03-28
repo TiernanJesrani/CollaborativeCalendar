@@ -1,0 +1,92 @@
+{
+  "_buildCommand2" : {
+    "command" : "preview"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "1177895953bbd9ce8f589438cc24f1f7eb7414cecf8a3c3e61ebfb102e57d6e3",
+      "parameters" : {
+        "action" : "build",
+        "activeArchitecture" : "arm64",
+        "activeRunDestination" : {
+          "disableOnlyActiveArch" : false,
+          "platform" : "macosx",
+          "sdk" : "macosx12.3",
+          "sdkVariant" : "macos",
+          "supportedArchitectures" : [
+            "arm64e",
+            "arm64",
+            "x86_64"
+          ],
+          "targetArchitecture" : "arm64"
+        },
+        "arenaInfo" : {
+          "buildIntermediatesPath" : "/Users/tiernanjesrani/Desktop/CalendarProject/FrontEnd/DerivedData/Build/Intermediates.noindex",
+          "buildProductsPath" : "/Users/tiernanjesrani/Desktop/CalendarProject/FrontEnd/DerivedData/Build/Products",
+          "derivedDataPath" : "/Users/tiernanjesrani/Desktop/CalendarProject/FrontEnd/DerivedData",
+          "indexDataStoreFolderPath" : "/Users/tiernanjesrani/Desktop/CalendarProject/FrontEnd/DerivedData/FrontEnd/Index/DataStore",
+          "indexEnableDataStore" : true,
+          "indexPCHPath" : "/Users/tiernanjesrani/Desktop/CalendarProject/FrontEnd/DerivedData/FrontEnd/Index/PrecompiledHeaders",
+          "pchPath" : "/Users/tiernanjesrani/Desktop/CalendarProject/FrontEnd/DerivedData/Build/Intermediates.noindex/PrecompiledHeaders"
+        },
+        "configurationName" : "Debug",
+        "overrides" : {
+          "synthesized" : {
+            "table" : {
+              "DSTROOT" : "/Users/tiernanjesrani/Desktop/CalendarProject/FrontEnd/DerivedData/Build/Intermediates.noindex/Previews/FrontEnd/ReleaseProducts",
+              "ENABLE_PREVIEWS" : "YES",
+              "OBJROOT" : "/Users/tiernanjesrani/Desktop/CalendarProject/FrontEnd/DerivedData/Build/Intermediates.noindex/Previews/FrontEnd/Intermediates.noindex",
+              "SYMROOT" : "/Users/tiernanjesrani/Desktop/CalendarProject/FrontEnd/DerivedData/Build/Intermediates.noindex/Previews/FrontEnd/Products"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "containerPath" : "/Users/tiernanjesrani/Desktop/CalendarProject/FrontEnd/FrontEnd.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx12.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/tiernanjesrani/Desktop/CalendarProject/FrontEnd/DerivedData/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/tiernanjesrani/Desktop/CalendarProject/FrontEnd/DerivedData/Build/Products",
+      "derivedDataPath" : "/Users/tiernanjesrani/Desktop/CalendarProject/FrontEnd/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/tiernanjesrani/Desktop/CalendarProject/FrontEnd/DerivedData/FrontEnd/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/tiernanjesrani/Desktop/CalendarProject/FrontEnd/DerivedData/FrontEnd/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/tiernanjesrani/Desktop/CalendarProject/FrontEnd/DerivedData/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

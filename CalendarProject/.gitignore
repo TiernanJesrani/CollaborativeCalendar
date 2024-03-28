@@ -1,0 +1,4 @@
+Backend/secrets.py
+env/
+
+*.DS_Store
