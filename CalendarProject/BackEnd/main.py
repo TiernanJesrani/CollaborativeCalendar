@@ -3,14 +3,15 @@ import jwt
 from datetime import datetime, timedelta
 from functools import wraps
 from pymongo import MongoClient
+import os 
 
 
-cluster = MongoClient("mongodb+srv://tiernanjesrani:IvyKallie2023@cluster0.ahxwwek.mongodb.net/?retryWrites=true&w=majority", ssl = True)
+cluster = MongoClient(os.getenv("MONGO_LINK"), ssl = True)
 db = cluster["SharedCalendar"]
 users = db["Users"]
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = '\x02\x1bV\\\x128\xcd0g\x87\xcd\x0b'
+app.config['SECRET_KEY'] = os.getenv("MONGO_KEY")
 
 @app.route("/", methods=["POST", "GET"])
 def home():

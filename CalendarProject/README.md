@@ -1,2 +1,0 @@
-# CalendarProject
-Collaborative calendar app
