@@ -1,0 +1,2 @@
+# SharedCalendar
+Collaborative calendar app
